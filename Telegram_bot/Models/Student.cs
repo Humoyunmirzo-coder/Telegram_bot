@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Telegram_bot.Models
 {
-    internal class Student : User, IComparable<Student>
+    public class Student : User, IComparable<Student>
     {
         public Student() { }
-
+    
 
         public int Id { get; set; } 
         public string  FirstName { get; set; }
@@ -31,15 +31,18 @@ namespace Telegram_bot.Models
 
         public void  Add_list ()
         {
+            
+            File.Create(path); Console.WriteLine(" File Create "); 
             if (File.Exists(path))
             {
+
                Console.WriteLine("File exists ");
                Console.Write(" Enter your text: ");
             string WriteText = Console.ReadLine();
             File.WriteAllText(path , WriteText) ;
-            };
+            }
 
-            if (!File.Exists(path))   {  File.Create(path); Console.WriteLine(" File Create ");    }
+           
                  
           
 

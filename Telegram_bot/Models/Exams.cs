@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Telegram_bot.Models
 {
-    internal class Exams
+    public class Exams
     {
+
     }
 }

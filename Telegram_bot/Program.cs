@@ -12,6 +12,8 @@ internal class Program
         student.FirstName = "Gafforov";
         student.Age = 22;
         student.Id =11;
+        User user = new User( );
+
         student.Add_list();
     }
 }
