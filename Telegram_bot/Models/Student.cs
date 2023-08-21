@@ -27,15 +27,21 @@ namespace Telegram_bot.Models
             Age = age;
             Address = address;
         }
-        string path = "C:\\HP\\PDP";
+        string path = "C:\\HP\\PDP\\php";
 
-        public void  Add_list (List<Student> list)
+        public void  Add_list ()
         {
-            if (File.Exists(path))   Console.WriteLine("File exists ") ;
-            else { File.Create(path); Console.WriteLine(" File Create ");  }
-            Console.Write(" Enter your text: ");
+            if (File.Exists(path))
+            {
+               Console.WriteLine("File exists ");
+               Console.Write(" Enter your text: ");
             string WriteText = Console.ReadLine();
             File.WriteAllText(path , WriteText) ;
+            };
+
+            if (!File.Exists(path))   {  File.Create(path); Console.WriteLine(" File Create ");    }
+                 
+          
 
         }
 
