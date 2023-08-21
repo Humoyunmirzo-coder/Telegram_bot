@@ -27,7 +27,7 @@ namespace Telegram_bot.Models
             Age = age;
             Address = address;
         }
-        string path = "C:\\HP\\PDP\\php";
+        string path = "C:\\HP\\PDP";
 
         public void  Add_list ()
         {

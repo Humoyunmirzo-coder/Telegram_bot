@@ -13,6 +13,7 @@ internal class Program
         student.Age = 22;
         student.Id =11;
         User user = new User( );
+        user.User_Check(11 ,"Sardor");
 
         student.Add_list();
     }
