@@ -27,7 +27,7 @@ namespace Telegram_bot.Models
             Age = age;
             Address = address;
         }
-        string path = "C:\\HP\\PDP";
+        string path = "C:\\HP\\PDP.txt";
 
         public void  Add_list ()
         {
@@ -53,4 +53,28 @@ namespace Telegram_bot.Models
             throw new NotImplementedException();
         }
     }
+
+
+    
+    class Student2
+    {
+        public string Address { get; set; }
+        public string LastName { get; set; }
+        public string FirstName { get; set; }
+        public int Age { get; set; }
+        public int Id { get; set; }
+
+        public Student2(string address, string lastName, string firstName, int age, int id)
+        {
+       
+            Address = address;
+            LastName = lastName;
+            FirstName = firstName;
+            Age = age;
+            Id = id;
+        }
+    }
+
+  
+
 }

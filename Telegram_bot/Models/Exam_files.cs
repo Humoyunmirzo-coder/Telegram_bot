@@ -8,5 +8,7 @@ namespace Telegram_bot.Models
 {
     internal class Exam_files
     {
+        public Exam_files() { }
+
     }
 }
