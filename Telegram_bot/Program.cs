@@ -13,6 +13,8 @@ internal class Program
         student.Age = 22;
         student.Id =11;
         User user = new User( );
+        Exam_files exam_Files = new Exam_files();
+        exam_Files.TextWrite("hello");
         user.User_Check(11 ,"Sardor");
 
         student.Add_list();
