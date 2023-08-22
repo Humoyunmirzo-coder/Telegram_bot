@@ -15,6 +15,7 @@ internal class Program
         User user = new User( );
         Exam_files exam_Files = new Exam_files();
         exam_Files.TextWrite("hello");
+        exam_Files.Start();
         user.User_Check(11 ,"Sardor");
 
         student.Add_list();
