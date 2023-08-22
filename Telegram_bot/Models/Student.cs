@@ -39,10 +39,10 @@ namespace Telegram_bot.Models
                Console.WriteLine("File exists ");
                Console.Write(" Enter your text: ");
             string WriteText = Console.ReadLine();
-            File.WriteAllText(path , WriteText) ;
+             File.WriteAllTextAsync(path , WriteText) ;
             }
 
-        
+         
                  
           
 
