@@ -10,5 +10,19 @@ namespace Telegram_bot.Models
     {
         public Exam_files() { }
 
+        string path = "C:\\HP\\PDP.txt";
+        public void TextWrite (string text)
+        {
+            File.WriteAllText(path, text);
+
+        }
+        public void Start()
+        {
+            Console.Write( "Eneter your Id:  ");
+            int id = int.Parse(Console.ReadLine());
+            Console.Write("Enter your Name: ");
+            string name = Console.ReadLine();   
+
+        }
     }
 }
