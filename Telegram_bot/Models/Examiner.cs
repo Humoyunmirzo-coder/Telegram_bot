@@ -47,7 +47,7 @@ namespace Telegram_bot.Models
         }
 
 
-        public void Examiners()
+        public void Examiners(  )
         {
             Console.Write("Enter your Id:");
             int id = int.Parse(Console.ReadLine());

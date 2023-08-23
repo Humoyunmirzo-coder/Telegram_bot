@@ -12,12 +12,16 @@ internal class Program
         student.FirstName = "Gafforov";
         student.Age = 22;
         student.Id =11;
+        student.Add_list();
+
         User user = new User( );
+        user.User_Check(11 ,"Sardor");
+
         Exam_files exam_Files = new Exam_files();
         exam_Files.TextWrite("hello");
         exam_Files.Start();
-        user.User_Check(11 ,"Sardor");
-
-        student.Add_list();
+      
+        Examiner examiner = new Examiner();
+        examiner.Examiners();
     }
 }
