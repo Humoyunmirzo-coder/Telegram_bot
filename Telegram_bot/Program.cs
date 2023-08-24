@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Security.Cryptography;
 using Telegram_bot.Models;
 
 internal class Program
@@ -19,9 +20,13 @@ internal class Program
 
         Exam_files exam_Files = new Exam_files();
         exam_Files.TextWrite("hello");
+        exam_Files.TextWrite("SARDOR");
+        exam_Files.TextWrite("KAMOL");
+        exam_Files.TextWrite("ODIL");
         exam_Files.Start();
       
         Examiner examiner = new Examiner();
         examiner.Examiners();
+      
     }
 }
