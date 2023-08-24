@@ -19,17 +19,7 @@ internal class Program
         user.User_Check(11 ,"Sardor");
 
         Exam_files exam_Files = new Exam_files();
-        exam_Files.TextWrite("hello");
-        exam_Files.TextWrite("SARDOR");
-        exam_Files.TextWrite("KAMOL");
-        exam_Files.TextWrite("ODIL");
-        exam_Files.TextWrite("NODIR");
-        exam_Files.TextWrite("ABROR");
-        exam_Files.TextWrite("ASROR");
-        exam_Files.TextWrite("IZZAT");
-        exam_Files.TextWrite("TEMUR");
-        exam_Files.TextWrite("DILSHOT");
-        exam_Files.TextWrite("QUVONCH");
+       
 
         exam_Files.Start();
       
