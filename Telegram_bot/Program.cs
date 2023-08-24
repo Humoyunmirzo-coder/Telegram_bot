@@ -23,6 +23,8 @@ internal class Program
         exam_Files.TextWrite("SARDOR");
         exam_Files.TextWrite("KAMOL");
         exam_Files.TextWrite("ODIL");
+        exam_Files.TextWrite("NODIR");
+
         exam_Files.Start();
       
         Examiner examiner = new Examiner();
