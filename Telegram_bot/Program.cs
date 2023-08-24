@@ -25,6 +25,8 @@ internal class Program
         exam_Files.TextWrite("ODIL");
         exam_Files.TextWrite("NODIR");
         exam_Files.TextWrite("ABROR");
+        exam_Files.TextWrite("ASROR");
+        exam_Files.TextWrite("IZZAT");
 
         exam_Files.Start();
       
