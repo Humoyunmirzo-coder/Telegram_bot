@@ -24,6 +24,7 @@ internal class Program
         exam_Files.TextWrite("KAMOL");
         exam_Files.TextWrite("ODIL");
         exam_Files.TextWrite("NODIR");
+        exam_Files.TextWrite("ABROR");
 
         exam_Files.Start();
       
