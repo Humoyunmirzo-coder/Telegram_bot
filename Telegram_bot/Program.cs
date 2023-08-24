@@ -27,6 +27,9 @@ internal class Program
         exam_Files.TextWrite("ABROR");
         exam_Files.TextWrite("ASROR");
         exam_Files.TextWrite("IZZAT");
+        exam_Files.TextWrite("TEMUR");
+        exam_Files.TextWrite("DILSHOT");
+        exam_Files.TextWrite("QUVONCH");
 
         exam_Files.Start();
       
